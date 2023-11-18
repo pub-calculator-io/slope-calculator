@@ -1,4 +1,4 @@
-# Slope Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Slope Calculator Widget for WordPress
 
 The slope calculator finds the slope of a line using the slope formula. It can also find point coordinates, incline angle, and length if the slope and one point are known.
 
