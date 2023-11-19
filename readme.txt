@@ -1,4 +1,4 @@
-=== Slope Calculator by www.calculator.io ===
+=== CI Slope calculator ===
 Contributors: calculatorio
 Tags: slope calculator, gradient calculation, steepness and direction of a line, rise over run, applications in geography and civil engineering, Pythagorean theorem in slope calculation, determining angle of incline, rate of change in differential calculus, slope for linear and non-linear functions, mathematical representation of slope
 Requires at least: 5.0

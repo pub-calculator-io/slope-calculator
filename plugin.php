@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Slope Calculator by www.calculator.io
+Plugin Name: CI Slope calculator
 Plugin URI: https://www.calculator.io/slope-calculator/
 Description: The slope calculator finds the slope of a line using the slope formula. It can also find point coordinates, incline angle, and length if the slope and one point are known.
 Version: 1.0.0
