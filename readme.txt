@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Slope Calculato
 == Screenshots ==
 
 1. The Slope Calculator Input Form.
-2. The Slope Calculator Calculation Results.
 
 == Installation ==
 

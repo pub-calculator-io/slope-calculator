@@ -103,7 +103,7 @@
                 				<span class="input-field__hint">Y<sub>1</sub></span>
                 			</div>
                 		</label>
-                		<label class="input col   ">
+                		<label class="input col triangle-calculator,right-triangle-calculator,distance-formula-calculator,distance-calculator,pythagorean-theorem-calculator  ">
                 			<p class="input__title">Distance (d)</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="distance_b" value="7"  />
@@ -112,7 +112,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row given related-item-hidden related-to-given-slope">
-                		<label class="input col   ">
+                		<label class="input col triangle-calculator,right-triangle-calculator,distance-formula-calculator,distance-calculator,pythagorean-theorem-calculator  ">
                 			<p class="input__title">Slope (m)</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="slope_b" value="5"  />
@@ -132,7 +132,7 @@
                 				<span class="input-field__hint">Y<sub>1</sub></span>
                 			</div>
                 		</label>
-                		<label class="input col   ">
+                		<label class="input col triangle-calculator,right-triangle-calculator,distance-formula-calculator,distance-calculator,pythagorean-theorem-calculator  ">
                 			<p class="input__title">Distance (d)</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="distance_c" value="7"  />
@@ -141,7 +141,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row given related-item-hidden related-to-given-angle">
-                		<label class="input col   ">
+                		<label class="input col triangle-calculator,right-triangle-calculator,distance-formula-calculator,distance-calculator,pythagorean-theorem-calculator  ">
                 			<p class="input__title">Angle (θ)</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="angle_c" value="45"  />
@@ -158,13 +158,16 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
+                	<script type="text/javascript" src="./assets/js/lib/math.min.js" async></script>
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -179,8 +182,7 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<div class="result-table__wrapper"> 
 		<table class="result-table">
@@ -189,7 +191,7 @@
 					<th class="dark indigo" colspan="2">Slope</th>
 				</tr>
 			</thead>
-			<tbody>
+			<tbody class="animate">
 				<tr>
 					<th class="semibold">Slope (m)</th>
 					<td class="semibold"><span id="result_slope">1.75</span></td>

@@ -3,7 +3,6 @@
 The slope calculator finds the slope of a line using the slope formula. It can also find point coordinates, incline angle, and length if the slope and one point are known.
 
 ![Slope Calculator Input Form](/assets/images/screenshot-1.png "Slope Calculator Input Form")
-![Slope Calculator Calculation Results](/assets/images/screenshot-2.png "Slope Calculator Calculation Results")
 
 ## Installation
 
