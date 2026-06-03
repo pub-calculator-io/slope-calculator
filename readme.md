@@ -1,6 +1,6 @@
 # Slope Calculator Widget for WordPress
 
-The slope calculator finds the slope of a line using the slope formula. It can also find point coordinates, incline angle, and length if the slope and one point are known.
+Calculate the slope of a line instantly with our free Slope Calculator. Easily find rise over run, incline angle, distance, and point coordinates. Try it now!
 
 ![Slope Calculator Input Form](/assets/images/screenshot-1.png "Slope Calculator Input Form")
 
@@ -11,8 +11,8 @@ The slope calculator finds the slope of a line using the slope formula. It can a
 3. Activate the [Slope Calculator](https://www.calculator.io/slope-calculator/ "Slope Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_slope_calculator]` to your page, post or sidebar.
-* Or add the following code: `<?php display_ci_slope_calculator(); ?>` to your template where you would like the Slope Calculator to appear.
+* Add the shortcode `[calcio_slope_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_calcio_slope_calculator(); ?>` to your template where you would like the Slope Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
